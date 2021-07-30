@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+body {
+    background-color: orange;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 3em;
+}
+
+p {
+    font-size: 50px;
+}
+
+button {
+    padding: 1em 2em;
+    border: none;
+    font-size: 1.2rem;
+    background: lightblue;
+}
+
+button:hover {
+    cursor: pointer
+}
+
+#randomWord {
+    padding: 10px;
+    /* width: 75%; */
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button, #randomWord {
+    border-radius: 999px;
+}
